@@ -10,6 +10,7 @@ def test_has_title(page: Page):
 
 
 def test_get_started_link(page: Page):
+    # navigation
     page.goto("https://playwright.dev/")
 
     # Click the get started link.
